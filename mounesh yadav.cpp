@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,choice,res;
+	printf("=====BRANCHING STATEMENT====="\n);
+	printf("Enter the first number : ");
+	scanf("%d"a, &a);
+	printf("Enter the second number: ");
+	scanf("%d", &b);
+	printf("\n-----MENU------\n");
+	printf("1.Check positive,negative or zero\n");
+	printf("2.Check even or odd\n");
+	printf("3.Find largest of two numbers");
+	printf("4.Chech divisbility by 5\n");
+	printf("\n Enter your choice: ");
+	scanf("%d", &choice);
+	printf("\n-----RESULT-----\n");
+	switch(choice)
+{
+	case 1:
+		 if(a>0)
+		 printf("%d is positive", a);
+		 else if(a<0)
+		 printf("%d is negative", a);
+		 else 
+		 printf("%d is zero", a);
+		 break;
+	case 2:
+	     if(a5)	 
+	}	
+		
+	
+}
